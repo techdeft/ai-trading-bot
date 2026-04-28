@@ -90,7 +90,7 @@
                     </div>
                 </div>
             </div>
-            <nav class="flex-1 px-4 space-y-1">
+            <nav class="flex-1 px-4 space-y-1 overflow-y-auto no-scrollbar">
                 <a class="flex items-center gap-3 px-3 py-2 rounded-lg transition-colors {{ request()->routeIs('dashboard') ? 'bg-primary/10 text-primary' : 'text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-surface-accent' }}"
                     href="{{ route('dashboard') }}">
                     <span class="material-symbols-outlined">dashboard</span>
